@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07DC59A0D82151ECA8057D29 /* Pods_TIKI_TEST_PHAMANHUAN_Ver_1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611CF95BEDF9A10F8865C910 /* Pods_TIKI_TEST_PHAMANHUAN_Ver_1Tests.framework */; };
+		6530D112224C8C2C009B4317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6530D111224C8C2C009B4317 /* AppDelegate.swift */; };
+		6530D11A224C8C2C009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6530D118224C8C2C009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1.xcdatamodeld */; };
+		6530D11C224C8C2E009B4317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6530D11B224C8C2E009B4317 /* Assets.xcassets */; };
+		6530D11F224C8C2E009B4317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6530D11D224C8C2E009B4317 /* LaunchScreen.storyboard */; };
+		6530D12A224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6530D129224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1Tests.swift */; };
+		6530D135224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6530D134224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1UITests.swift */; };
+		6577033C224C993D00F8A303 /* ProductServerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6577033B224C993D00F8A303 /* ProductServerAPI.swift */; };
+		6577033F224C998200F8A303 /* CommonConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6577033E224C998200F8A303 /* CommonConstant.swift */; };
+		65770341224C9C8200F8A303 /* TikiTestMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65770340224C9C8200F8A303 /* TikiTestMainViewController.swift */; };
+		65770345224CA11800F8A303 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65770344224CA11800F8A303 /* Product.swift */; };
+		65770349224CA1D300F8A303 /* ProductInfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65770348224CA1D300F8A303 /* ProductInfoCollectionViewCell.swift */; };
+		6577034E224CA29700F8A303 /* CollectionViewCellConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6577034D224CA29700F8A303 /* CollectionViewCellConstant.swift */; };
+		65770351224D0FFC00F8A303 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65770350224D0FFC00F8A303 /* UIViewExtension.swift */; };
+		65770353224D1F6F00F8A303 /* UITextViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65770352224D1F6F00F8A303 /* UITextViewExtensions.swift */; };
+		65770355224D272700F8A303 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65770354224D272700F8A303 /* StringExtension.swift */; };
+		9FA6C7BCB60DA831DA6ACC32 /* Pods_TIKI_TEST_PHAMANHUAN_Ver_1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F901D57119BB0631735F1D71 /* Pods_TIKI_TEST_PHAMANHUAN_Ver_1UITests.framework */; };
+		ABBBAC7B0DC1D874842A8CF1 /* Pods_TIKI_TEST_PHAMANHUAN_Ver_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8DF4320AEF2441ED70FA1C /* Pods_TIKI_TEST_PHAMANHUAN_Ver_1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6530D126224C8C2E009B4317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6530D106224C8C2C009B4317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6530D10D224C8C2C009B4317;
+			remoteInfo = TIKI_TEST_PHAMANHUAN_Ver_1;
+		};
+		6530D131224C8C2E009B4317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6530D106224C8C2C009B4317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6530D10D224C8C2C009B4317;
+			remoteInfo = TIKI_TEST_PHAMANHUAN_Ver_1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13B8C7D36C2C6EAF4B82D4C4 /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIKI_TEST_PHAMANHUAN_Ver_1.debug.xcconfig"; path = "Target Support Files/Pods-TIKI_TEST_PHAMANHUAN_Ver_1/Pods-TIKI_TEST_PHAMANHUAN_Ver_1.debug.xcconfig"; sourceTree = "<group>"; };
+		21F1AC4EE64350577DCFE4BF /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIKI_TEST_PHAMANHUAN_Ver_1Tests.release.xcconfig"; path = "Target Support Files/Pods-TIKI_TEST_PHAMANHUAN_Ver_1Tests/Pods-TIKI_TEST_PHAMANHUAN_Ver_1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		611CF95BEDF9A10F8865C910 /* Pods_TIKI_TEST_PHAMANHUAN_Ver_1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TIKI_TEST_PHAMANHUAN_Ver_1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6530D10E224C8C2C009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIKI_TEST_PHAMANHUAN_Ver_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6530D111224C8C2C009B4317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6530D119224C8C2C009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TIKI_TEST_PHAMANHUAN_Ver_1.xcdatamodel; sourceTree = "<group>"; };
+		6530D11B224C8C2E009B4317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6530D11E224C8C2E009B4317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6530D120224C8C2E009B4317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6530D125224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIKI_TEST_PHAMANHUAN_Ver_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6530D129224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIKI_TEST_PHAMANHUAN_Ver_1Tests.swift; sourceTree = "<group>"; };
+		6530D12B224C8C2E009B4317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6530D130224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIKI_TEST_PHAMANHUAN_Ver_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6530D134224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIKI_TEST_PHAMANHUAN_Ver_1UITests.swift; sourceTree = "<group>"; };
+		6530D136224C8C2E009B4317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6577033B224C993D00F8A303 /* ProductServerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductServerAPI.swift; sourceTree = "<group>"; };
+		6577033E224C998200F8A303 /* CommonConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonConstant.swift; sourceTree = "<group>"; };
+		65770340224C9C8200F8A303 /* TikiTestMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikiTestMainViewController.swift; sourceTree = "<group>"; };
+		65770344224CA11800F8A303 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		65770348224CA1D300F8A303 /* ProductInfoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInfoCollectionViewCell.swift; sourceTree = "<group>"; };
+		6577034D224CA29700F8A303 /* CollectionViewCellConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellConstant.swift; sourceTree = "<group>"; };
+		65770350224D0FFC00F8A303 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		65770352224D1F6F00F8A303 /* UITextViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewExtensions.swift; sourceTree = "<group>"; };
+		65770354224D272700F8A303 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		65D607099407C4942139978E /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIKI_TEST_PHAMANHUAN_Ver_1UITests.debug.xcconfig"; path = "Target Support Files/Pods-TIKI_TEST_PHAMANHUAN_Ver_1UITests/Pods-TIKI_TEST_PHAMANHUAN_Ver_1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FB77873BE0F108632559107 /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIKI_TEST_PHAMANHUAN_Ver_1Tests.debug.xcconfig"; path = "Target Support Files/Pods-TIKI_TEST_PHAMANHUAN_Ver_1Tests/Pods-TIKI_TEST_PHAMANHUAN_Ver_1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B412B64F460A3B70894BD7B1 /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIKI_TEST_PHAMANHUAN_Ver_1.release.xcconfig"; path = "Target Support Files/Pods-TIKI_TEST_PHAMANHUAN_Ver_1/Pods-TIKI_TEST_PHAMANHUAN_Ver_1.release.xcconfig"; sourceTree = "<group>"; };
+		BBAFAE7BAA0B5925C5F667C3 /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIKI_TEST_PHAMANHUAN_Ver_1UITests.release.xcconfig"; path = "Target Support Files/Pods-TIKI_TEST_PHAMANHUAN_Ver_1UITests/Pods-TIKI_TEST_PHAMANHUAN_Ver_1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC8DF4320AEF2441ED70FA1C /* Pods_TIKI_TEST_PHAMANHUAN_Ver_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TIKI_TEST_PHAMANHUAN_Ver_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F901D57119BB0631735F1D71 /* Pods_TIKI_TEST_PHAMANHUAN_Ver_1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TIKI_TEST_PHAMANHUAN_Ver_1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6530D10B224C8C2C009B4317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBBAC7B0DC1D874842A8CF1 /* Pods_TIKI_TEST_PHAMANHUAN_Ver_1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6530D122224C8C2E009B4317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DC59A0D82151ECA8057D29 /* Pods_TIKI_TEST_PHAMANHUAN_Ver_1Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6530D12D224C8C2E009B4317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA6C7BCB60DA831DA6ACC32 /* Pods_TIKI_TEST_PHAMANHUAN_Ver_1UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6530D105224C8C2C009B4317 = {
+			isa = PBXGroup;
+			children = (
+				6530D110224C8C2C009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1 */,
+				6530D128224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1Tests */,
+				6530D133224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1UITests */,
+				6530D10F224C8C2C009B4317 /* Products */,
+				8D1D7BBA3388040413106FE3 /* Pods */,
+				B0A722D62B8FD143D0F71A59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6530D10F224C8C2C009B4317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6530D10E224C8C2C009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1.app */,
+				6530D125224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1Tests.xctest */,
+				6530D130224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6530D110224C8C2C009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1 */ = {
+			isa = PBXGroup;
+			children = (
+				6577034F224D0FDA00F8A303 /* Extensions */,
+				6577033D224C997000F8A303 /* AppConst */,
+				6530D142224C9463009B4317 /* Server */,
+				6530D118224C8C2C009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1.xcdatamodeld */,
+				65770343224CA10400F8A303 /* Models */,
+				65770342224CA0FE00F8A303 /* Views */,
+				6530D111224C8C2C009B4317 /* AppDelegate.swift */,
+				6530D11B224C8C2E009B4317 /* Assets.xcassets */,
+				6530D11D224C8C2E009B4317 /* LaunchScreen.storyboard */,
+				6530D120224C8C2E009B4317 /* Info.plist */,
+			);
+			path = TIKI_TEST_PHAMANHUAN_Ver_1;
+			sourceTree = "<group>";
+		};
+		6530D128224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6530D129224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1Tests.swift */,
+				6530D12B224C8C2E009B4317 /* Info.plist */,
+			);
+			path = TIKI_TEST_PHAMANHUAN_Ver_1Tests;
+			sourceTree = "<group>";
+		};
+		6530D133224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6530D134224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1UITests.swift */,
+				6530D136224C8C2E009B4317 /* Info.plist */,
+			);
+			path = TIKI_TEST_PHAMANHUAN_Ver_1UITests;
+			sourceTree = "<group>";
+		};
+		6530D142224C9463009B4317 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				6577033A224C992100F8A303 /* Product */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		6577033A224C992100F8A303 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				6577033B224C993D00F8A303 /* ProductServerAPI.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		6577033D224C997000F8A303 /* AppConst */ = {
+			isa = PBXGroup;
+			children = (
+				6577034C224CA26700F8A303 /* Client */,
+				6577034B224CA25D00F8A303 /* Server */,
+			);
+			path = AppConst;
+			sourceTree = "<group>";
+		};
+		65770342224CA0FE00F8A303 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65770347224CA1B500F8A303 /* Prouct */,
+				65770346224CA1AE00F8A303 /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		65770343224CA10400F8A303 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				65770344224CA11800F8A303 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		65770346224CA1AE00F8A303 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				65770340224C9C8200F8A303 /* TikiTestMainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		65770347224CA1B500F8A303 /* Prouct */ = {
+			isa = PBXGroup;
+			children = (
+				65770348224CA1D300F8A303 /* ProductInfoCollectionViewCell.swift */,
+			);
+			path = Prouct;
+			sourceTree = "<group>";
+		};
+		6577034B224CA25D00F8A303 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				6577033E224C998200F8A303 /* CommonConstant.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		6577034C224CA26700F8A303 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				6577034D224CA29700F8A303 /* CollectionViewCellConstant.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		6577034F224D0FDA00F8A303 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				65770350224D0FFC00F8A303 /* UIViewExtension.swift */,
+				65770352224D1F6F00F8A303 /* UITextViewExtensions.swift */,
+				65770354224D272700F8A303 /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8D1D7BBA3388040413106FE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13B8C7D36C2C6EAF4B82D4C4 /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1.debug.xcconfig */,
+				B412B64F460A3B70894BD7B1 /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1.release.xcconfig */,
+				6FB77873BE0F108632559107 /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1Tests.debug.xcconfig */,
+				21F1AC4EE64350577DCFE4BF /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1Tests.release.xcconfig */,
+				65D607099407C4942139978E /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1UITests.debug.xcconfig */,
+				BBAFAE7BAA0B5925C5F667C3 /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B0A722D62B8FD143D0F71A59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC8DF4320AEF2441ED70FA1C /* Pods_TIKI_TEST_PHAMANHUAN_Ver_1.framework */,
+				611CF95BEDF9A10F8865C910 /* Pods_TIKI_TEST_PHAMANHUAN_Ver_1Tests.framework */,
+				F901D57119BB0631735F1D71 /* Pods_TIKI_TEST_PHAMANHUAN_Ver_1UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6530D10D224C8C2C009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6530D139224C8C2E009B4317 /* Build configuration list for PBXNativeTarget "TIKI_TEST_PHAMANHUAN_Ver_1" */;
+			buildPhases = (
+				A943A50CCF17E0299C3F0C8D /* [CP] Check Pods Manifest.lock */,
+				6530D10A224C8C2C009B4317 /* Sources */,
+				6530D10B224C8C2C009B4317 /* Frameworks */,
+				6530D10C224C8C2C009B4317 /* Resources */,
+				8230A89C58C3104F92560C76 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TIKI_TEST_PHAMANHUAN_Ver_1;
+			productName = TIKI_TEST_PHAMANHUAN_Ver_1;
+			productReference = 6530D10E224C8C2C009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6530D124224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6530D13C224C8C2E009B4317 /* Build configuration list for PBXNativeTarget "TIKI_TEST_PHAMANHUAN_Ver_1Tests" */;
+			buildPhases = (
+				4C3EED16BCF6D77D9B0B5790 /* [CP] Check Pods Manifest.lock */,
+				6530D121224C8C2E009B4317 /* Sources */,
+				6530D122224C8C2E009B4317 /* Frameworks */,
+				6530D123224C8C2E009B4317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6530D127224C8C2E009B4317 /* PBXTargetDependency */,
+			);
+			name = TIKI_TEST_PHAMANHUAN_Ver_1Tests;
+			productName = TIKI_TEST_PHAMANHUAN_Ver_1Tests;
+			productReference = 6530D125224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6530D12F224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6530D13F224C8C2E009B4317 /* Build configuration list for PBXNativeTarget "TIKI_TEST_PHAMANHUAN_Ver_1UITests" */;
+			buildPhases = (
+				9882AFC51541A876E05C4FBC /* [CP] Check Pods Manifest.lock */,
+				6530D12C224C8C2E009B4317 /* Sources */,
+				6530D12D224C8C2E009B4317 /* Frameworks */,
+				6530D12E224C8C2E009B4317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6530D132224C8C2E009B4317 /* PBXTargetDependency */,
+			);
+			name = TIKI_TEST_PHAMANHUAN_Ver_1UITests;
+			productName = TIKI_TEST_PHAMANHUAN_Ver_1UITests;
+			productReference = 6530D130224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6530D106224C8C2C009B4317 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = LAP12217;
+				TargetAttributes = {
+					6530D10D224C8C2C009B4317 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					6530D124224C8C2E009B4317 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 6530D10D224C8C2C009B4317;
+					};
+					6530D12F224C8C2E009B4317 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 6530D10D224C8C2C009B4317;
+					};
+				};
+			};
+			buildConfigurationList = 6530D109224C8C2C009B4317 /* Build configuration list for PBXProject "TIKI_TEST_PHAMANHUAN_Ver_1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6530D105224C8C2C009B4317;
+			productRefGroup = 6530D10F224C8C2C009B4317 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6530D10D224C8C2C009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1 */,
+				6530D124224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1Tests */,
+				6530D12F224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6530D10C224C8C2C009B4317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6530D11F224C8C2E009B4317 /* LaunchScreen.storyboard in Resources */,
+				6530D11C224C8C2E009B4317 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6530D123224C8C2E009B4317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6530D12E224C8C2E009B4317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C3EED16BCF6D77D9B0B5790 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TIKI_TEST_PHAMANHUAN_Ver_1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8230A89C58C3104F92560C76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TIKI_TEST_PHAMANHUAN_Ver_1/Pods-TIKI_TEST_PHAMANHUAN_Ver_1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TIKI_TEST_PHAMANHUAN_Ver_1/Pods-TIKI_TEST_PHAMANHUAN_Ver_1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9882AFC51541A876E05C4FBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TIKI_TEST_PHAMANHUAN_Ver_1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A943A50CCF17E0299C3F0C8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TIKI_TEST_PHAMANHUAN_Ver_1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6530D10A224C8C2C009B4317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6577034E224CA29700F8A303 /* CollectionViewCellConstant.swift in Sources */,
+				65770341224C9C8200F8A303 /* TikiTestMainViewController.swift in Sources */,
+				6530D112224C8C2C009B4317 /* AppDelegate.swift in Sources */,
+				65770349224CA1D300F8A303 /* ProductInfoCollectionViewCell.swift in Sources */,
+				6577033C224C993D00F8A303 /* ProductServerAPI.swift in Sources */,
+				6577033F224C998200F8A303 /* CommonConstant.swift in Sources */,
+				65770351224D0FFC00F8A303 /* UIViewExtension.swift in Sources */,
+				6530D11A224C8C2C009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1.xcdatamodeld in Sources */,
+				65770345224CA11800F8A303 /* Product.swift in Sources */,
+				65770355224D272700F8A303 /* StringExtension.swift in Sources */,
+				65770353224D1F6F00F8A303 /* UITextViewExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6530D121224C8C2E009B4317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6530D12A224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6530D12C224C8C2E009B4317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6530D135224C8C2E009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6530D127224C8C2E009B4317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6530D10D224C8C2C009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1 */;
+			targetProxy = 6530D126224C8C2E009B4317 /* PBXContainerItemProxy */;
+		};
+		6530D132224C8C2E009B4317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6530D10D224C8C2C009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1 */;
+			targetProxy = 6530D131224C8C2E009B4317 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6530D11D224C8C2E009B4317 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6530D11E224C8C2E009B4317 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6530D137224C8C2E009B4317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6530D138224C8C2E009B4317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6530D13A224C8C2E009B4317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B8C7D36C2C6EAF4B82D4C4 /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G29ZZ5JTD;
+				INFOPLIST_FILE = TIKI_TEST_PHAMANHUAN_Ver_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phamanhtuancross.vng.com.TIKI-TEST-PHAMANHUAN-Ver-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6530D13B224C8C2E009B4317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B412B64F460A3B70894BD7B1 /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G29ZZ5JTD;
+				INFOPLIST_FILE = TIKI_TEST_PHAMANHUAN_Ver_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phamanhtuancross.vng.com.TIKI-TEST-PHAMANHUAN-Ver-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6530D13D224C8C2E009B4317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB77873BE0F108632559107 /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G29ZZ5JTD;
+				INFOPLIST_FILE = TIKI_TEST_PHAMANHUAN_Ver_1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phamanhtuancross.vng.com.TIKI-TEST-PHAMANHUAN-Ver-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TIKI_TEST_PHAMANHUAN_Ver_1.app/TIKI_TEST_PHAMANHUAN_Ver_1";
+			};
+			name = Debug;
+		};
+		6530D13E224C8C2E009B4317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21F1AC4EE64350577DCFE4BF /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G29ZZ5JTD;
+				INFOPLIST_FILE = TIKI_TEST_PHAMANHUAN_Ver_1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phamanhtuancross.vng.com.TIKI-TEST-PHAMANHUAN-Ver-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TIKI_TEST_PHAMANHUAN_Ver_1.app/TIKI_TEST_PHAMANHUAN_Ver_1";
+			};
+			name = Release;
+		};
+		6530D140224C8C2E009B4317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D607099407C4942139978E /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G29ZZ5JTD;
+				INFOPLIST_FILE = TIKI_TEST_PHAMANHUAN_Ver_1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phamanhtuancross.vng.com.TIKI-TEST-PHAMANHUAN-Ver-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TIKI_TEST_PHAMANHUAN_Ver_1;
+			};
+			name = Debug;
+		};
+		6530D141224C8C2E009B4317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBAFAE7BAA0B5925C5F667C3 /* Pods-TIKI_TEST_PHAMANHUAN_Ver_1UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G29ZZ5JTD;
+				INFOPLIST_FILE = TIKI_TEST_PHAMANHUAN_Ver_1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phamanhtuancross.vng.com.TIKI-TEST-PHAMANHUAN-Ver-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TIKI_TEST_PHAMANHUAN_Ver_1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6530D109224C8C2C009B4317 /* Build configuration list for PBXProject "TIKI_TEST_PHAMANHUAN_Ver_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6530D137224C8C2E009B4317 /* Debug */,
+				6530D138224C8C2E009B4317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6530D139224C8C2E009B4317 /* Build configuration list for PBXNativeTarget "TIKI_TEST_PHAMANHUAN_Ver_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6530D13A224C8C2E009B4317 /* Debug */,
+				6530D13B224C8C2E009B4317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6530D13C224C8C2E009B4317 /* Build configuration list for PBXNativeTarget "TIKI_TEST_PHAMANHUAN_Ver_1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6530D13D224C8C2E009B4317 /* Debug */,
+				6530D13E224C8C2E009B4317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6530D13F224C8C2E009B4317 /* Build configuration list for PBXNativeTarget "TIKI_TEST_PHAMANHUAN_Ver_1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6530D140224C8C2E009B4317 /* Debug */,
+				6530D141224C8C2E009B4317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6530D118224C8C2C009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6530D119224C8C2C009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1.xcdatamodel */,
+			);
+			currentVersion = 6530D119224C8C2C009B4317 /* TIKI_TEST_PHAMANHUAN_Ver_1.xcdatamodel */;
+			path = TIKI_TEST_PHAMANHUAN_Ver_1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6530D106224C8C2C009B4317 /* Project object */;
+}
